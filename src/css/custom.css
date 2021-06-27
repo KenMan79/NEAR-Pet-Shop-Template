@@ -1,0 +1,41 @@
+body {
+  background-color: #4B4F54;
+}
+
+h1 {
+  color: #f8f8f8;
+}
+
+h3 {
+  color: #25282A;
+}
+
+#explorer-link, #status-messages {
+  font-size: 23px;
+  text-align: center;
+}
+
+#response {
+  font-size: 17px;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+#status-messages {
+  color: white;
+  background-color: darkred;
+}
+
+#explorer-link a:visited, #explorer-link a {
+  color: #6AD1E3;
+}
+
+#explorer-link a:hover {
+  color: lightblue;
+}
+
+#hidden-for-parcel img {
+  height: 0;
+  width: 0;
+}

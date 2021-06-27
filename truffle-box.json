@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    "box-img-lg.png",
+    "box-img-sm.png"
+  ],
+  "commands": {
+    "Compile contracts": "truffle compile",
+    "Migrate contracts": "truffle migrate --network nearTestnet"
+  },
+  "hooks": {
+    "post-unpack": "npm i"
+  }
+}
